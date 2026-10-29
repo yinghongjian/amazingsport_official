@@ -1,0 +1,25 @@
+03:30:14 [content] Syncing content
+03:30:14 [content] Synced content
+03:30:14 [types] Generated 14ms
+03:30:14 [build] output: "static"
+03:30:14 [build] mode: "static"
+03:30:14 [build] directory: /Users/ai 产品开发与 编程/奇动官网/dist/
+03:30:14 [build] Collecting build info...
+03:30:14 [build] ✓ Completed in 21ms.
+03:30:14 [build] Building static entrypoints...
+03:30:14 [vite] ✓ built in 303ms
+03:30:14 [build] ✓ Completed in 316ms.
+
+ building client (vite) 
+03:30:14 [vite] transforming...
+03:30:14 [vite] ✓ 2 modules transformed.
+03:30:14 [vite] rendering chunks...
+03:30:14 [vite] ✓ built in 9ms
+
+ generating static routes 
+03:30:14 ▶ src/pages/index.astro
+03:30:14   └─ /index.html (+5ms) 
+03:30:14 ✓ Completed in 8ms.
+
+03:30:14 [build] 1 page(s) built in 367ms
+03:30:14 [build] Complete!

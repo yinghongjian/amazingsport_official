@@ -1,0 +1,29 @@
+---
+import {warmth,families,products} from '../data/home';
+const first=products[0];
+---
+<section id="collections" class="collection section-pad" aria-labelledby="collections-title">
+ <div class="section-line"><span>01 / 鹅绒系列</span><span>THE DOWN EDIT</span></div>
+ <div class="section-heading"><h2 id="collections-title">冬天，不止一种轮廓。</h2><p>雪花泡芙 · 云壳系列 · 校服神器运动鹅绒<br/>按产品手卡顺序，认识每一款。</p></div>
+ <div class="collection-layout">
+  <figure class="collection-photo" data-selected-product={first.id}>
+   <div class="photo"><img id="selected-product-image" src={first.image} alt={first.name} width={first.width} height={first.height} loading="lazy" decoding="async"/><span class="photo-fallback" hidden>图片暂时无法加载</span></div>
+   <figcaption><span id="selected-product-name">{first.name}</span><span id="selected-product-source">{first.sku} · 手卡第 {first.imageSlide} 页</span></figcaption>
+   <p class="selected-empty" hidden>该分类暂无对应产品照片。</p>
+  </figure>
+  <div class="collection-index">
+   <div class="filter-group"><span class="filter-label">按温区</span><div class="filter-options" aria-label="温区分类">{['全部',...warmth].map((label,i)=><button type="button" data-filter="warmth" data-value={i?label:''} aria-pressed={i?'false':'true'}>{label}</button>)}</div></div>
+   <div class="filter-group"><span class="filter-label">按系列 / 属性</span><div class="filter-options" aria-label="系列及属性分类">{['全部',...families].map((label,i)=><button type="button" data-filter="family" data-value={i?label:''} aria-pressed={i?'false':'true'}>{label}</button>)}</div></div>
+   <p class="filter-status" aria-live="polite">按产品手卡顺序呈现 · {products.length} 款</p>
+   <div class="product-list">{products.map((p,i)=><article data-product data-id={p.id} data-warmth={p.warmth} data-family={p.families.join('|')} class:list={['product-row',{'initial-extra':i>3}]}>
+    <button class="product-select" type="button" data-product-select data-image={p.image} data-name={p.name} data-sku={p.sku} data-slide={p.imageSlide} data-source={p.imageSlide?`手卡第 ${p.imageSlide} 页`:p.note} data-width={p.width} data-height={p.height} aria-label={`查看图片：${p.name}（${p.sku}）`} aria-pressed={i?'false':'true'}>
+     <img src={p.image} alt={p.name} width={p.width} height={p.height} loading="lazy"/><span class="product-number">{String(i+1).padStart(2,'0')}</span>
+    </button>
+    <div><h3>{p.name}</h3><p>{p.sku||'手卡本页未列货号'} · {p.note}</p><details><summary>查看款式资料</summary><div class="source-detail">{p.titleSlide?`名称依据：手卡第 ${p.titleSlide} 页。图片依据：手卡第 ${p.imageSlide} 页。`:`名称依据：品牌本轮提供图片“雪花泡芙5.0”；货号与极寒分类由品牌补充确认。图片保留原有标注，具体适用条件以此款资料为准。`}{p.warmth?`温区分类：${p.warmth}。`:'本页未明确温区分类，不按外观推断。'}<br/>同货号不同代际、同名不同页面均分别保留；具体尺码、性能及购买资料按款核验。<a href="#channels">查看购买渠道状态 ↗</a></div></details></div>
+   </article>)}</div>
+   <p class="empty-state" hidden>当前资料中暂无该分类组合的对应款式，请尝试其他分类。</p>
+   <button class="text-button show-all" type="button" aria-expanded="false">展开全部款式 <span aria-hidden="true">＋</span></button>
+   <p class="fine-print">产品昵称与图片按手卡对应；分类入口采用品牌确认名称。温区未明确的款式不推定归类，不把分类名转换成摄氏温度。</p>
+  </div>
+ </div>
+</section>

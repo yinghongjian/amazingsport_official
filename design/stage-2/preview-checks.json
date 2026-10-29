@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-30",
+  "browser": "Google Chrome via Playwright",
+  "results": [
+    {
+      "concept": "a",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 1440,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 855
+    },
+    {
+      "concept": "a",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 390,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 886.59375
+    },
+    {
+      "concept": "a",
+      "width": 375,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 375,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 886.59375
+    },
+    {
+      "concept": "a",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 768,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 886.59375
+    },
+    {
+      "concept": "a",
+      "width": 1280,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 1280,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 855
+    },
+    {
+      "concept": "b",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 1440,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 865
+    },
+    {
+      "concept": "b",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 390,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 948.1875
+    },
+    {
+      "concept": "b",
+      "width": 375,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 375,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 948.1875
+    },
+    {
+      "concept": "b",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 768,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 948.1875
+    },
+    {
+      "concept": "b",
+      "width": 1280,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 1280,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 865
+    },
+    {
+      "concept": "c",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 1440,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 951.375
+    },
+    {
+      "concept": "c",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 390,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 880.96875
+    },
+    {
+      "concept": "c",
+      "width": 375,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 375,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 880.96875
+    },
+    {
+      "concept": "c",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 768,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 863.96875
+    },
+    {
+      "concept": "c",
+      "width": 1280,
+      "status": 200,
+      "errors": [],
+      "scrollWidth": 1280,
+      "broken": [],
+      "anchors": true,
+      "font": "\"PingFang SC\", \"Helvetica Neue\", sans-serif",
+      "heroHeight": 951.375
+    }
+  ]
+}

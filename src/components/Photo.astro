@@ -1,0 +1,10 @@
+---
+interface Props { name:string; alt:string; class?:string; eager?:boolean; sizes?:string; }
+const {name,alt,class:className='',eager=false,sizes='(max-width: 700px) 100vw, 50vw'}=Astro.props;
+const small=['violet','back'].includes(name);
+const widths=small?[480]:[480,960,1600];
+---
+<div class:list={['photo',className]}>
+ <img src={`/images/${name}-${small?480:960}.webp`} srcset={widths.map(w=>`/images/${name}-${w}.webp ${w}w`).join(', ')} sizes={sizes} alt={alt} width={small?531:4800} height={small?819:7200} loading={eager?'eager':'lazy'} fetchpriority={eager?'high':'auto'} decoding="async" />
+ <span class="photo-fallback" hidden>图片暂时无法加载</span>
+</div>

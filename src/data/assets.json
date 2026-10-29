@@ -1,0 +1,68 @@
+[
+  {
+    "name": "blue",
+    "source": "design/stage-2/assets/image46.jpeg",
+    "sha256": "87a7f01c43b1d04c5b126ceef68d2da3963b615ebfd6537e22544110d08f16ee",
+    "width": 4800,
+    "height": 7200,
+    "sizes": [
+      480,
+      960,
+      1600
+    ],
+    "edit": "Format conversion and proportional resizing only; CSS detail views are labelled as garment crops.",
+    "rights": "Pending publication verification"
+  },
+  {
+    "name": "green",
+    "source": "design/stage-2/assets/image47.jpeg",
+    "sha256": "a4c088354f12ffdd5312a12477cece5f061e2a5721074fffd195d8b893a9b51f",
+    "width": 4800,
+    "height": 7200,
+    "sizes": [
+      480,
+      960,
+      1600
+    ],
+    "edit": "Format conversion and proportional resizing only; CSS detail views are labelled as garment crops.",
+    "rights": "Pending publication verification"
+  },
+  {
+    "name": "dark",
+    "source": "design/stage-2/assets/image43.jpeg",
+    "sha256": "9795f96e77c4abe281c5cb81384f861ef82621e83742f6bf29774b82b68385b4",
+    "width": 4800,
+    "height": 7200,
+    "sizes": [
+      480,
+      960,
+      1600
+    ],
+    "edit": "Format conversion and proportional resizing only; CSS detail views are labelled as garment crops.",
+    "rights": "Pending publication verification"
+  },
+  {
+    "name": "violet",
+    "source": "design/stage-2/assets/image32.png",
+    "sha256": "a6a3f945d329610e844e797cf8dccd3aa647ab0dd5a7c44a7ec81fc0ecb0ded6",
+    "width": 531,
+    "height": 819,
+    "sizes": [
+      480
+    ],
+    "edit": "Format conversion and proportional resizing only; CSS detail views are labelled as garment crops.",
+    "rights": "Pending publication verification"
+  },
+  {
+    "name": "back",
+    "source": "design/stage-2/assets/image31.png",
+    "sha256": "f3ed10ad5ac68b57c347291d22351c374d502d04dd99f5e9ca70ff299e7f14c7",
+    "width": 532,
+    "height": 815,
+    "sizes": [
+      480
+    ],
+    "edit": "Format conversion and proportional resizing only; CSS detail views are labelled as garment crops.",
+    "rights": "Pending publication verification"
+  }
+]

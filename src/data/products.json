@@ -1,0 +1,310 @@
+[
+  {
+    "id": "down-50",
+    "name": "【雪花泡芙5.0】轻暖轻薄鹅绒",
+    "slide": 7,
+    "titleSlide": 9,
+    "imageSlide": 7,
+    "imageSource": "image19.jpeg",
+    "sku": "DER25619-AS",
+    "warmth": "轻暖",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/down-50.webp",
+    "note": "手卡第 7 页 / 第 9 页",
+    "width": 1280,
+    "height": 1920,
+    "sha256": "d99dab1f0eef9a914835e2176ae9a76126d93bf70a4782950039d86b634de0bd"
+  },
+  {
+    "id": "down-40",
+    "name": "【雪花泡芙4.0】轻暖轻薄鹅绒",
+    "slide": 8,
+    "titleSlide": 8,
+    "imageSlide": 8,
+    "imageSource": "image23.jpeg",
+    "sku": "DER25619-AS",
+    "warmth": "轻暖",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/down-40.webp",
+    "note": "手卡第 8 页",
+    "width": 277,
+    "height": 416,
+    "sha256": "6962292989ca83ac8da5d4c18c698098c3fb04cf666a237ebc69966baee8bb7a"
+  },
+  {
+    "id": "ultra-girl",
+    "name": "【雪花泡芙5.0】轻暖ultra鹅绒服女生版",
+    "slide": 10,
+    "titleSlide": 11,
+    "imageSlide": 10,
+    "imageSource": "image32.png",
+    "sku": "DER26447",
+    "warmth": "轻暖",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/ultra-girl.webp",
+    "note": "手卡第 10 页 / 第 11 页",
+    "width": 531,
+    "height": 819,
+    "sha256": "a6a3f945d329610e844e797cf8dccd3aa647ab0dd5a7c44a7ec81fc0ecb0ded6"
+  },
+  {
+    "id": "ultra",
+    "name": "【雪花泡芙5.0】轻暖ultra鹅绒服",
+    "slide": 12,
+    "titleSlide": 13,
+    "imageSlide": 12,
+    "imageSource": "image35.png",
+    "sku": "DER26452",
+    "warmth": "轻暖",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/ultra.webp",
+    "note": "手卡第 12 页 / 第 13 页",
+    "width": 472,
+    "height": 778,
+    "sha256": "7e9bba004de419ce5d6115c1cd6f1c72b6ff702d122ae84b07b964991ea1603b"
+  },
+  {
+    "id": "flagship",
+    "name": "【雪花泡芙5.0】轻暖旗舰版鹅绒服 95鹅绒",
+    "slide": 14,
+    "titleSlide": 15,
+    "imageSlide": 14,
+    "imageSource": "image46.jpeg",
+    "sku": "DER26459-AS-JW",
+    "warmth": "轻暖",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/flagship.webp",
+    "note": "手卡第 14 页 / 第 15 页",
+    "width": 4800,
+    "height": 7200,
+    "sha256": "87a7f01c43b1d04c5b126ceef68d2da3963b615ebfd6537e22544110d08f16ee"
+  },
+  {
+    "id": "cloud",
+    "name": "【云壳轻暖鹅绒服】双面穿鹅绒服",
+    "slide": 16,
+    "titleSlide": 16,
+    "imageSlide": 16,
+    "imageSource": "image53.png",
+    "sku": "DER26464-AS",
+    "warmth": "轻暖",
+    "families": [
+      "云壳系列"
+    ],
+    "image": "/images/products/cloud.webp",
+    "note": "手卡第 16 页",
+    "width": 471,
+    "height": 713,
+    "sha256": "ee320f69228988f0685964347728e6035ba44912e7e910c079674c55d7344da4"
+  },
+  {
+    "id": "dual",
+    "name": "【雪花泡芙5.0 双界系列】面包鹅绒服",
+    "slide": 17,
+    "titleSlide": 17,
+    "imageSlide": 17,
+    "imageSource": "image58.png",
+    "sku": "26601-AS",
+    "warmth": "",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/dual.webp",
+    "note": "手卡第 17 页",
+    "width": 460,
+    "height": 618,
+    "sha256": "c6d64f3c3938a0270ee4500e28bda953b9a793150199e2a73387773bd961a27f"
+  },
+  {
+    "id": "bread",
+    "name": "【雪花泡芙5.0 系列】中暖面包鹅绒服",
+    "slide": 19,
+    "titleSlide": 19,
+    "imageSlide": 19,
+    "imageSource": "image63.png",
+    "sku": "26458-AS",
+    "warmth": "中暖面包",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/bread.webp",
+    "note": "手卡第 19 页",
+    "width": 654,
+    "height": 1237,
+    "sha256": "7dd080ccbd20bda11a718c60f461cf3fe357a05d811bff8fa0c9b8008b76c113"
+  },
+  {
+    "id": "school50",
+    "name": "【雪花泡芙5.0】校服神器 90鹅绒",
+    "slide": 20,
+    "titleSlide": 21,
+    "imageSlide": 20,
+    "imageSource": "image65.png",
+    "sku": "DER26460",
+    "warmth": "",
+    "families": [
+      "雪花泡芙",
+      "校服神器运动鹅绒"
+    ],
+    "image": "/images/products/school50.webp",
+    "note": "手卡第 20 页 / 第 21 页",
+    "width": 434,
+    "height": 792,
+    "sha256": "509d8bafcf5197ce6d941b1319f3f6827c795e7c7efe5fafc8fb12ac74e1b506"
+  },
+  {
+    "id": "school40",
+    "name": "雪花泡芙4.0 轻暖校服神器",
+    "slide": 22,
+    "titleSlide": 22,
+    "imageSlide": 22,
+    "imageSource": "image72.jpeg",
+    "sku": "DYR24520-AS(SHY)",
+    "warmth": "轻暖",
+    "families": [
+      "雪花泡芙",
+      "校服神器运动鹅绒"
+    ],
+    "image": "/images/products/school40.webp",
+    "note": "手卡第 22 页",
+    "width": 273,
+    "height": 412,
+    "sha256": "397c29af3e57b30918030b32c44b2da42d99c885872f3cf51aa7208171d7000c"
+  },
+  {
+    "id": "vest",
+    "name": "【雪花泡芙】轻暖鹅绒马甲",
+    "slide": 23,
+    "titleSlide": 23,
+    "imageSlide": 23,
+    "imageSource": "image77.jpeg",
+    "sku": "DERMJ25617-AS",
+    "warmth": "轻暖",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/vest.webp",
+    "note": "手卡第 23 页",
+    "width": 288,
+    "height": 432,
+    "sha256": "7777c009c517efcb38c5897faa83a68c755335401895f483159fcdd6a8b23fda"
+  },
+  {
+    "id": "cold40",
+    "name": "【雪花泡芙4.0御寒系列】鹅绒服",
+    "slide": 24,
+    "titleSlide": 24,
+    "imageSlide": 24,
+    "imageSource": "image79.png",
+    "sku": "DER25608-AS",
+    "warmth": "御寒",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/cold40.webp",
+    "note": "手卡第 24 页",
+    "width": 271,
+    "height": 428,
+    "sha256": "e64e3b956296950706cddca4ea0f88f52ec2dce90acc01123c875b4d4a7519bf"
+  },
+  {
+    "id": "cold50",
+    "name": "【雪花泡芙5.0御寒系列】鹅绒服",
+    "slide": 25,
+    "titleSlide": 25,
+    "imageSlide": 25,
+    "imageSource": "image88.jpeg",
+    "sku": "DER25608-AS",
+    "warmth": "御寒",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/cold50.webp",
+    "note": "手卡第 25 页",
+    "width": 2728,
+    "height": 4096,
+    "sha256": "eb7f4d5e9791bcea91e588b45728f8f151b4f012dd40a417ec1681e4ac7b5c76"
+  },
+  {
+    "id": "cold50-new",
+    "name": "【雪花泡芙5.0御寒系列】鹅绒服",
+    "slide": 27,
+    "titleSlide": 27,
+    "imageSlide": 27,
+    "imageSource": "image103.png",
+    "sku": "",
+    "warmth": "御寒",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/cold50-new.webp",
+    "note": "手卡第 27 页",
+    "width": 588,
+    "height": 735,
+    "sha256": "3870eb9d6e055917f25a4e5969bc1799b8c126d536cb024c14797d7ad015f2c9"
+  },
+  {
+    "id": "hydrogen",
+    "name": "氢壳面料鹅绒御寒系列",
+    "slide": 48,
+    "titleSlide": 48,
+    "imageSlide": 48,
+    "imageSource": "image173.png",
+    "sku": "DER26574-AS",
+    "warmth": "御寒",
+    "families": [],
+    "image": "/images/products/hydrogen.webp",
+    "note": "手卡第 48 页",
+    "width": 510,
+    "height": 898,
+    "sha256": "b5687da9d014c87c6257e7e677df77004e5b2837c203fbb07fdad22d2a30f914"
+  },
+  {
+    "id": "thick-vest",
+    "name": "雪花泡芙5.0 鹅绒厚马甲",
+    "slide": 49,
+    "titleSlide": 49,
+    "imageSlide": 49,
+    "imageSource": "image177.png",
+    "sku": "DERMJ25982-AS",
+    "warmth": "",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/thick-vest.webp",
+    "note": "手卡第 49 页",
+    "width": 528,
+    "height": 778,
+    "sha256": "dff9d2485c6bdc503a5ae8997e7749183ad17faa15d4ec35408668c8c27a7ddb"
+  },
+  {
+    "id": "extreme-der2659",
+    "name": "雪花泡芙5.0",
+    "slide": null,
+    "titleSlide": null,
+    "imageSlide": null,
+    "imageSource": "DER2659-AS-user.png",
+    "sourceType": "user-supplement",
+    "sourcePath": "docs/evidence/stage-3/product-mapping/DER2659-AS-user.png",
+    "sku": "DER2659-AS",
+    "warmth": "极寒",
+    "families": [
+      "雪花泡芙"
+    ],
+    "image": "/images/products/extreme-der2659.webp",
+    "note": "品牌补充资料 · 极寒系列",
+    "width": 1033,
+    "height": 1032,
+    "sha256": "d4f2c0766a454ce3f900f73286ffb99022211e47527ac76edf51b53e08a4f2b3"
+  }
+]

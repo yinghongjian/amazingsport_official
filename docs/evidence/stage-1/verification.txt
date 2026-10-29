@@ -1,0 +1,34 @@
+AMAZING SPORT — Stage 1 documentation verification
+Date: 2026-10-28 Asia/Shanghai
+Method: bundled Python 3; filesystem, Markdown link, requirement-marker and SHA-256 checks
+Scope: documentation only; no web application tests
+
+FILE docs/PRD.md | 248 lines | 27480 bytes
+FILE docs/Sitemap.md | 101 lines | 7425 bytes
+FILE docs/Content-Matrix.md | 173 lines | 22250 bytes
+FILE docs/Acceptance.md | 129 lines | 13152 bytes
+FILE PLANS.md | 89 lines | 7880 bytes
+
+SOURCE COUNT: 22
+SOURCE INTEGRITY: True
+DOCUMENT LINKS: PASS
+REQUIRED PAGE/DECISION MARKERS: PASS
+APP MANIFEST: absent
+BUSINESS CODE: no application created; new project files limited to Markdown planning and internal evidence
+LINT / TYPECHECK / BUILD / UI / LIGHTHOUSE: NOT TESTED — no application exists
+DEPLOYMENT / PUSH / INSTALL / GIT INIT: not performed
+
+INITIAL PROJECT INVENTORY:
+AGENTS.md
+CODEX_TASKS.md
+amazingsport-codex/AGENTS.md
+amazingsport-codex/CODEX_TASKS.md
+amazingsport-codex/README.md
+Two prompt-package ZIP archives and .DS_Store also present (excluded from rg listing).
+git status --short => exit 128: not a git repository
+
+PASS — all documentation checks completed
+EXIT CODE: 0
+
+FINAL RECHECK: 5 documents; 20 local links; 22 full SHA-256 source comparisons; PASS
+Final recheck exit code: 0

@@ -1,0 +1,15 @@
+---
+import {navigation} from '../data/home';
+---
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="site-header">
+ <a class="logo" href="#top" aria-label="奇动 AMAZING SPORT 首页"><img src="/images/brand-logo.png" width="161" height="85" alt="Amazing Sport 奇动" /></a>
+ <nav class="desktop-nav" aria-label="主导航">{navigation.map(item=><a href={item.href}>{item.label}</a>)}</nav>
+ <span class="header-edition" aria-hidden="true">WINTER / 26</span>
+ <button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false">菜单 <span aria-hidden="true">＋</span></button>
+</header>
+<dialog id="mobile-menu" aria-labelledby="menu-title">
+ <div class="menu-top"><span id="menu-title">AMAZING SPORT</span><button class="menu-close" aria-label="关闭菜单">关闭 ×</button></div>
+ <nav aria-label="手机主导航">{navigation.map((item,i)=><a href={item.href}><small>0{i+1}</small>{item.label}<span aria-hidden="true">↗</span></a>)}</nav>
+ <p>冬日有光，少年有方向。</p>
+</dialog>

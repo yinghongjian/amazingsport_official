@@ -1,0 +1,45 @@
+---
+import Header from '../components/Header.astro';
+import MaterialTechnology from '../components/MaterialTechnology.astro';
+import Photo from '../components/Photo.astro';
+import Collections from '../components/Collections.astro';
+import {scenes,channelConfig,navigation,products} from '../data/home';
+const flagship=products.find(p=>p.id==='flagship')!;
+import '../styles/tokens.css';
+import '../styles/home.css';
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+ <title>奇动 AMAZING SPORT · 少年的冬天，自在向前</title>
+ <meta name="description" content="探索奇动 AMAZING SPORT 的鹅绒服设计、冬季穿搭与少年运动美学。雪花泡芙、云壳系列与校服搭配，款式信息分别呈现。"/>
+ <meta name="robots" content="noindex,nofollow"/><meta name="theme-color" content="#F6F6F2"/>
+ <meta property="og:title" content="奇动 AMAZING SPORT · 冬日探索"/><meta property="og:description" content="少年的冬天，自在向前。探索鹅绒系列与少年运动美学。"/><meta property="og:type" content="website"/>
+ <link rel="icon" href="/images/brand-logo.png" type="image/png"/>
+</head>
+<body id="top">
+ <Header/>
+ <main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+   <div class="hero-copy"><p class="eyebrow">AMAZING SPORT / WINTER EDITION</p><h1 id="hero-title">少年的冬天，<br/>自在向前。</h1><p class="hero-en" lang="en">WINTER, IN YOUR OWN STRIDE.</p><a class="button" href="#collections">探索鹅绒系列 <span aria-hidden="true">↗</span></a><div class="hero-bottom"><span>科技轻暖 · 少年探索 · 运动美学</span><span aria-hidden="true">SCROLL TO EXPLORE ↓</span></div></div>
+   <figure class="hero-visual"><Photo name="blue" alt="身穿浅蓝色立领鹅绒服的少年，搭配黑色裤装和白色靴子" eager/><figcaption>{flagship.name}<br/>DER26459-AS-JW · 手卡第 14–15 页</figcaption></figure>
+  </section>
+  <section class="manifesto section-pad" aria-labelledby="manifesto-title"><p class="eyebrow">自由，是少年的本能。</p><div><h2 id="manifesto-title">把冬天的重量，<br/>留给风景。</h2><p>我们关注科技面料，也关注衣服里的少年。<br/>从一件鹅绒服出发，让设计走进校园与日常，<br/>陪伴每一个想要向前的时刻。</p></div><span class="manifesto-mark" aria-hidden="true">自由<br/>向前</span></section>
+  <Collections/>
+  <section id="technology" class="technology" aria-labelledby="technology-title">
+   <figure class="technology-photo"><Photo name="green" alt="绿色形象款衣身绗缝与立领的局部裁切" class="detail-crop" sizes="1600px"/><figcaption>{flagship.name} / 衣身原片局部，非面料显微图</figcaption></figure>
+   <div class="technology-copy"><div class="section-line"><span>02 / 核心科技</span><span>DESIGN, WITH REASON.</span></div><h2 id="technology-title">轻暖的背后，<br/>是对细节的认真。</h2><p class="body-copy">从填充材料到衣身结构，每一个选择都需要回到具体款式。看见设计，也看清依据。</p><dl class="tech-facts"><div><dt>01 / 鹅绒</dt><dd>填充材料的信息，按款式与代际分别呈现。</dd></div><div><dt>02 / 面料</dt><dd>观察表面肌理，功能表现以对应测试为依据。</dd></div><div><dt>03 / 结构</dt><dd>从领口、绗缝与下摆，理解衣服的设计。</dd></div></dl><details class="evidence"><summary>关于产品参数与验证依据 <span aria-hidden="true">＋</span></summary><p>不同款式不共用含绒量、蓬松度、温区或面料参数。对应检测与授权摘要核验后再发布；当前原型不以形象图片代替检测证明。</p></details></div>
+  </section>
+  <MaterialTechnology/>
+  <section id="stories" class="stories section-pad" aria-labelledby="stories-title"><div class="section-line"><span>03 / 日常，也是探索</span><span>IN YOUR OWN STRIDE</span></div><div class="story-heading"><h2 id="stories-title">去哪里，都有自己的步调。</h2><div class="scene-controls" aria-label="选择穿着场景">{scenes.map((s,i)=><button data-scene={s.id} aria-pressed={i?'false':'true'} aria-controls={`scene-${s.id}`}>{s.label}</button>)}</div></div>
+   {scenes.map((s,i)=><article id={`scene-${s.id}`} class="scene-panel" hidden={i!==0}><figure><Photo name={s.image} alt={s.alt}/><figcaption>{flagship.name} · 场景穿搭示意</figcaption></figure><div class="story-copy"><p class="eyebrow">0{i+1} / {s.label}</p><h3>{s.title}</h3><p>{s.text}</p><p class="scene-detail">{s.detail}</p><a class="text-link" href="#collections">从鹅绒系列开始 ↗</a></div></article>)}
+  </section>
+  <section id="craft" class="craft section-pad" aria-labelledby="craft-title"><div class="section-line"><span>04 / 走近一件衣服</span><span>A CLOSER LOOK</span></div><div class="section-heading"><h2 id="craft-title">细节，是设计的另一种语言。</h2><p>不急着远行。<br/>先看清一件衣服。</p></div><div class="craft-grid"><figure><Photo name="blue" alt="浅蓝鹅绒服领口与肩部的原片局部" class="collar-crop" sizes="1600px"/><figcaption><span>01 / 领口与轮廓</span><span>让线条回到身体。</span></figcaption></figure><figure><Photo name="green" alt="绿色鹅绒服衣身绗缝的原片局部" class="seam-crop" sizes="1600px"/><figcaption><span>02 / 绗缝与节奏</span><span>让秩序藏在细节里。</span></figcaption></figure></div><p class="fine-print">以上为{flagship.name}（DER26459-AS-JW）的原片局部；锁绒结构、缝制工艺与功能验证仍需独立特写与对应资料。</p></section>
+  <section id="brand" class="brand section-pad" aria-labelledby="brand-title"><p class="eyebrow">05 / 品牌世界</p><h2 id="brand-title">认真设计，<br/>自由生长。</h2><div class="brand-bottom"><p>奇动 AMAZING SPORT<br/>面向 5–16 岁少年及其家庭，<br/>以科技轻暖、少年探索与运动美学，<br/>回应成长中的每一种可能。</p><div><p>鹅绒服，是冬日故事的起点。<br/>羊毛 T 恤与软壳裤，延伸日常搭配。<br/>不替少年定义方向，陪他们找到自己的节奏。</p><a class="text-link" href="#stories">探索少年的日常 ↗</a></div></div><span class="brand-word" aria-hidden="true">AMAZING SPORT</span></section>
+  <section id="channels" class="channels section-pad" aria-labelledby="channels-title"><div><p class="eyebrow">06 / 与奇动相遇</p><h2 id="channels-title">下一段冬日故事，<br/>从这里开始。</h2></div><div class="channel-info"><h3>官方购买渠道</h3>{channelConfig.url?<a class="button" href={channelConfig.url} rel="noopener noreferrer">前往官方店铺 ↗</a>:<p>官方店铺入口正在核验整理。<br/>本预览暂不提供购买跳转。</p>}<a class="text-link" href="#collections">继续探索鹅绒系列 ↗</a></div></section>
+ </main>
+ <footer><div class="footer-top"><a class="logo" href="#top" aria-label="回到顶部"><img src="/images/brand-logo.png" width="161" height="85" alt="Amazing Sport" loading="lazy"/></a><nav aria-label="页脚导航">{navigation.map(item=><a href={item.href}>{item.label}</a>)}</nav></div><div class="footer-bottom"><span>© 2026 AMAZING SPORT · 奇动</span><span>首页设计预览 · 素材与发布资料核验中</span><a href="#top">回到顶部 ↑</a></div></footer>
+ <script>import '../scripts/home';</script>
+</body>
+</html>

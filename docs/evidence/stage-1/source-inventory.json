@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-28",
+  "scope": "Only three user-specified asset directories; excludes .DS_Store",
+  "files": [
+    {
+      "path": "/Users/01-0 奇动品牌与营销/奇动产品资料/奇动2026秋冬第一波手卡.pptx",
+      "bytes": 247437094,
+      "sha256": "e7a8eb68cf7fd48f86318f50b8b0a32db3da8d443389253c5591b4491348251c",
+      "initial_sha256_prefix": "e7a8eb68cf7fd48f",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/奇动品牌资料/【主理人介绍】Andy｜奇动 Amazing Sport 创始人、童装主理人.docx",
+      "bytes": 7161,
+      "sha256": "7c39259f1d5fcbbd4aef91d31e1a75327b5dfcc8ee07febaf110db1fb0080ae8",
+      "initial_sha256_prefix": "7c39259f1d5fcbbd",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/奇动品牌资料/奇动品牌手册简版 26.9月(2).pdf",
+      "bytes": 8628885,
+      "sha256": "0f1b35f8e5a619c80cd0775db24821e267ea86e0ab207708c0b7b2ff63ce1ca9",
+      "initial_sha256_prefix": "0f1b35f8e5a619c8",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/奇动品牌资料/奇动品牌手册简版 26.9月.pdf",
+      "bytes": 8602892,
+      "sha256": "5af5dfbec518ee2876e7a76570987971bc8105b268cdb189ed733d98998e39ce",
+      "initial_sha256_prefix": "5af5dfbec518ee28",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/奇动品牌资料/奇动品牌简介.rtf",
+      "bytes": 2339,
+      "sha256": "06e8f86e7aaa451635eea37fa40a425450b7ff809dcaaf5701e70dffb0b9d39a",
+      "initial_sha256_prefix": "06e8f86e7aaa4516",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/奇动品牌资料/奇动团队介绍(1).ppt",
+      "bytes": 92160,
+      "sha256": "eca9a791c7e299cf0dbf661eb4bf70f78d5a8644cc4864f150dfb79e30708947",
+      "initial_sha256_prefix": "eca9a791c7e299cf",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/2befb95a6052e32390df990443310663.mp4",
+      "bytes": 245277,
+      "sha256": "9dcf0530b2af99c885f284b7f4b6d0e84797bad07dae5071504d30dce72fa597",
+      "initial_sha256_prefix": "9dcf0530b2af99c8",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/KOL带货战报.jpg",
+      "bytes": 434882,
+      "sha256": "a0e840cfa8559e208f2295e7c1f5a1efac58cb764be91e7b805aff025beb18cc",
+      "initial_sha256_prefix": "a0e840cfa8559e20",
+      "unchanged_from_initial": true,
+      "pixel_dimensions": [
+        1200,
+        724
+      ]
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/中国儿童超轻鹅绒服 开创者信息表（奇动） .docx",
+      "bytes": 311359,
+      "sha256": "887b0f2a49c2f9958dd6fe88c54da925b4b0a7c6d06122686616b127e90725bd",
+      "initial_sha256_prefix": "887b0f2a49c2f995",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/中国儿童超轻鹅绒服领导品牌.png",
+      "bytes": 258572,
+      "sha256": "5cc62ebe9da69b85bc786571a1e7a9c985de0c0a0ac38672b85c379f06a72451",
+      "initial_sha256_prefix": "5cc62ebe9da69b85",
+      "unchanged_from_initial": true,
+      "pixel_dimensions": [
+        383,
+        545
+      ]
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/奇动 中国儿童超轻鹅绒服领导品牌 市场地位报告(全文).pdf",
+      "bytes": 2558692,
+      "sha256": "1a7a79ba90b95f3a8f2f98e06136c86f046d51f2f4d53779995a060b40b3deef",
+      "initial_sha256_prefix": "1a7a79ba90b95f3a",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/奇动 市场地位证书 (盖章版).pdf",
+      "bytes": 107648,
+      "sha256": "a635d6c778291228867720f29d67b715f09e0707ea18a371830dc4a90119ae81",
+      "initial_sha256_prefix": "a635d6c778291228",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/微信图片_20261020165846_1003_46.jpg",
+      "bytes": 376313,
+      "sha256": "3df07e36f95361424c3c638eb13c55b91827203fd05511b720cfb09acee097f2",
+      "initial_sha256_prefix": "3df07e36f9536142",
+      "unchanged_from_initial": true,
+      "pixel_dimensions": [
+        1417,
+        1049
+      ]
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/微信图片_20261021013310_1005_46.jpg",
+      "bytes": 162503,
+      "sha256": "11d63c6335fbcdce6b8a8c1ac2ba178027f69064fd6e5746e4918e6817a2ca5a",
+      "initial_sha256_prefix": "11d63c6335fbcdce",
+      "unchanged_from_initial": true,
+      "pixel_dimensions": [
+        1280,
+        1730
+      ]
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/微信图片_20261021013310_1006_46.jpg",
+      "bytes": 396021,
+      "sha256": "57c4d62095302d473f679a2bec956a1924105da1eb2261d8bf309582e889c348",
+      "initial_sha256_prefix": "57c4d62095302d47",
+      "unchanged_from_initial": true,
+      "pixel_dimensions": [
+        1417,
+        1049
+      ]
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/微信图片_20261021013311_1007_46.jpg",
+      "bytes": 2521733,
+      "sha256": "dc1689c3979e8eeb8181555a149594c92896959b4f59a03ebe0497adc506f832",
+      "initial_sha256_prefix": "dc1689c3979e8eeb",
+      "unchanged_from_initial": true,
+      "pixel_dimensions": [
+        2202,
+        1399
+      ]
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/微信图片_20261021013312_1008_46.png",
+      "bytes": 591899,
+      "sha256": "af47e7ef9e9a3658c47d6cc4058e5caa647ce2d0a0c349fd31b2ddf8e13eb9bc",
+      "initial_sha256_prefix": "af47e7ef9e9a3658",
+      "unchanged_from_initial": true,
+      "pixel_dimensions": [
+        778,
+        810
+      ]
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/微信图片_20261023092727_425_1440.jpg",
+      "bytes": 543606,
+      "sha256": "713fe45826768ab468288706ff7244bbfa41a098199a7c59d5d0a19e6093e241",
+      "initial_sha256_prefix": "713fe45826768ab4",
+      "unchanged_from_initial": true,
+      "pixel_dimensions": [
+        1417,
+        1049
+      ]
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/按压素材.mp4",
+      "bytes": 651231,
+      "sha256": "a80c448d649a569aefa5e32db04fbe1fb128114b15ed0aec0d7d7f804b9e550b",
+      "initial_sha256_prefix": "a80c448d649a569a",
+      "unchanged_from_initial": true
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/鹅绒图01.png",
+      "bytes": 503583,
+      "sha256": "e2e918afa6079dcee092f010323d98be8c77a3649fa41d57bc3f51b6122aadcc",
+      "initial_sha256_prefix": "e2e918afa6079dce",
+      "unchanged_from_initial": true,
+      "pixel_dimensions": [
+        603,
+        1039
+      ]
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/鹅绒图02.png",
+      "bytes": 536991,
+      "sha256": "414b56e7da5e4f663fe6b47fc2dee75a9d03c87b51c7f1d1cabde927192f64dd",
+      "initial_sha256_prefix": "414b56e7da5e4f66",
+      "unchanged_from_initial": true,
+      "pixel_dimensions": [
+        608,
+        1040
+      ]
+    },
+    {
+      "path": "/Users/01-0 奇动品牌与营销/信任状/鹅绒素材.mp4",
+      "bytes": 195631,
+      "sha256": "f718b1a7f7b7522aabb754ee91431477ec3cc61f27156004b851d617b24d4096",
+      "initial_sha256_prefix": "f718b1a7f7b7522a",
+      "unchanged_from_initial": true
+    }
+  ]
+}

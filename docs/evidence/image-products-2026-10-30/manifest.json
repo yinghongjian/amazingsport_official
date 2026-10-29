@@ -1,0 +1,56 @@
+[
+  {
+    "image": 1,
+    "source": "/var/folders/0h/h1ryqvf53s9fdn9jzkqrd6lc0000gn/T/codex-clipboard-54d20e85-3cf8-47be-abb4-979d34dd6ef3.png",
+    "saved": "docs/evidence/image-products-2026-10-30/image-01.png",
+    "sha256": "6d99a88d159752cfdcbe1d8a6ab30a3ceed9d7507f394289b668dadc6768a545",
+    "role": "用户指定形象产品参考",
+    "sku_mapping": "待逐图确认",
+    "ai_marker_visible": false
+  },
+  {
+    "image": 2,
+    "source": "/var/folders/0h/h1ryqvf53s9fdn9jzkqrd6lc0000gn/T/codex-clipboard-bb6f5c56-a05b-412a-8698-65f76feb52a9.png",
+    "saved": "docs/evidence/image-products-2026-10-30/image-02.png",
+    "sha256": "d619e5e46ce3f3a417c3c67a11e00078537c712eb72be08d8c6b2b506b748c57",
+    "role": "用户指定形象产品参考",
+    "sku_mapping": "待逐图确认",
+    "ai_marker_visible": false
+  },
+  {
+    "image": 3,
+    "source": "/var/folders/0h/h1ryqvf53s9fdn9jzkqrd6lc0000gn/T/codex-clipboard-638b0731-7bd5-4c63-b1c9-0501f0f8d824.png",
+    "saved": "docs/evidence/image-products-2026-10-30/image-03.png",
+    "sha256": "515d2d71056b607c5729a308964b0aab5d9f064fab7c44b02ca16e483ea4a8cd",
+    "role": "用户指定形象产品参考",
+    "sku_mapping": "待逐图确认",
+    "ai_marker_visible": true
+  },
+  {
+    "image": 4,
+    "source": "/var/folders/0h/h1ryqvf53s9fdn9jzkqrd6lc0000gn/T/codex-clipboard-55a537a6-352d-49be-8d0e-cb03c100e2c5.png",
+    "saved": "docs/evidence/image-products-2026-10-30/image-04.png",
+    "sha256": "a046e7b92d5fa49fc213f219ffc0b26e023bdece3427b7b92f8a49d334127356",
+    "role": "用户指定形象产品参考",
+    "sku_mapping": "待逐图确认",
+    "ai_marker_visible": false
+  },
+  {
+    "image": 5,
+    "source": "/var/folders/0h/h1ryqvf53s9fdn9jzkqrd6lc0000gn/T/codex-clipboard-f8014fd7-ae2e-489f-9e1c-1668d966fe4f.png",
+    "saved": "docs/evidence/image-products-2026-10-30/image-05.png",
+    "sha256": "b719e555ccb9db475f6e468b44a73998b7d1fe64b30c65e78793cd93aa31efbf",
+    "role": "用户指定形象产品参考",
+    "sku_mapping": "待逐图确认",
+    "ai_marker_visible": false
+  },
+  {
+    "image": 6,
+    "source": "/var/folders/0h/h1ryqvf53s9fdn9jzkqrd6lc0000gn/T/codex-clipboard-6a2ded7b-b7f8-4315-bcb9-e32053ee0d88.png",
+    "saved": "docs/evidence/image-products-2026-10-30/image-06.png",
+    "sha256": "5e11ba8bb5475b5fa140b7060670959bb5f91d2535fcad9fa990bdfbdf09aed6",
+    "role": "用户指定形象产品参考",
+    "sku_mapping": "待逐图确认",
+    "ai_marker_visible": false
+  }
+]
